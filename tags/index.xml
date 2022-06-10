@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>分类 on 老陳网志</title>
+    <link>https://chenyyds.com/tags/</link>
+    <description>Recent content in 分类 on 老陳网志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 22 Jan 2022 14:53:36 +0000</lastBuildDate><atom:link href="https://chenyyds.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>折腾</title>
+      <link>https://chenyyds.com/tags/%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Sat, 22 Jan 2022 14:53:36 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/tags/%E6%8A%98%E8%85%BE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>生活</title>
+      <link>https://chenyyds.com/tags/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Tue, 16 Feb 2021 16:53:46 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/tags/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>应用</title>
+      <link>https://chenyyds.com/tags/%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Tue, 28 Apr 2020 14:53:46 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/tags/%E5%BA%94%E7%94%A8/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>折腾 on 老陳网志</title>
+    <link>https://chenyyds.com/tags/%E6%8A%98%E8%85%BE/</link>
+    <description>Recent content in 折腾 on 老陳网志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 22 Jan 2022 14:53:36 +0000</lastBuildDate><atom:link href="https://chenyyds.com/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给博客换身皮</title>
+      <link>https://chenyyds.com/posts/theme-2022/</link>
+      <pubDate>Sat, 22 Jan 2022 14:53:36 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/theme-2022/</guid>
+      <description>春节快来了，顺便把博客更新一下。差不多大半年没更新博客了。 自从以前的Hexo换成了Hugo，速度真的快了很多，不愧是 “The world’s fastest”。用的</description>
+    </item>
+    
+    <item>
+      <title>你妹，就是这个风格。</title>
+      <link>https://chenyyds.com/posts/bokenimei/</link>
+      <pubDate>Fri, 17 Apr 2020 15:05:55 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/bokenimei/</guid>
+      <description>总是换来换去，之前的博客服务器被我干崩了，数据全部没了！ 现在又重新用go语言搭建的静态博客，直接托管到仓库。 省略了数据备份，又节约了服务器成本。 博客来对我来说是</description>
+    </item>
+    
+    <item>
+      <title>用cloud studio来搭建Hugo</title>
+      <link>https://chenyyds.com/posts/hugo-cloudstudio/</link>
+      <pubDate>Wed, 15 Apr 2020 14:53:46 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/hugo-cloudstudio/</guid>
+      <description>前言 我的Hogo博客托管在Coding，相对来说比在Github速度快很多。 Hugo博客跟Hexo差不多先在本地部署好，生成静态文件然后推送到仓库。 基本上都是在</description>
+    </item>
+    
+    <item>
+      <title>吐槽神器—B言B语</title>
+      <link>https://chenyyds.com/posts/bb/</link>
+      <pubDate>Wed, 25 Mar 2020 14:53:46 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/bb/</guid>
+      <description>在刷博客的时候无意中发现@Daibor大佬的文章写到利用后端 BaaS 快速搭建专属无点赞评论版微博b言b语。原文链接 我搭建的BB演示👇：bb.ChenPlus.com 基</description>
+    </item>
+    
+    <item>
+      <title>中文文本测试</title>
+      <link>https://chenyyds.com/posts/chinese/</link>
+      <pubDate>Sun, 15 Mar 2020 11:25:05 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/chinese/</guid>
+      <description>这样看来， 邓拓在不经意间这样说过，越是没有本领的就越加自命不凡。这不禁令我深思。 我们不得不面对一个非常尴尬的事实，那就是， 一般来说， 所谓中午吃什么，关键是中午吃</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <generator uri="https://gohugo.io/" version="0.81.0">Hugo</generator><title type="html"><![CDATA[首页 on 老陳网志]]></title>
+    
+    
+    
+            <link href="https://chenyyds.com/atom.xml" rel="self" type="application/rss+xml" title="atom" />
+            <link href="https://chenyyds.com/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://chenyyds.com/index.json" rel="alternate" type="application/json" title="JSON" />
+    <updated>2022-06-10T10:57:57+00:00</updated>
+    
+    
+    
+    
+        <id>https://chenyyds.com/atom.xml</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[给博客换身皮]]></title>
+            <link href="https://chenyyds.com/posts/theme-2022/" rel="alternate" type="text/html" />
+            
+                <link href="https://chenyyds.com/posts/bokenimei/" rel="related" type="text/html" title="你妹，就是这个风格。" />
+                <link href="https://chenyyds.com/posts/hugo-cloudstudio/" rel="related" type="text/html" title="用cloud studio来搭建Hugo" />
+                <link href="https://chenyyds.com/posts/bb/" rel="related" type="text/html" title="吐槽神器—B言B语" />
+                <link href="https://chenyyds.com/posts/chinese/" rel="related" type="text/html" title="中文文本测试" />
+            
+                <id>https://chenyyds.com/posts/theme-2022/</id>
+            
+            
+            <published>2022-01-22T14:53:36+00:00</published>
+            <updated>2022-01-22T14:53:36+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>春节快来了，顺便把博客更新一下。差不多大半年没更新博客了。</p>
+<p>自从以前的Hexo换成了Hugo，速度真的快了很多，不愧是 “The world’s fastest”。用的主题是 <a href="https://github.com/WingLim/hugo-tania">Tania</a>，很简洁、漂亮。Hugo 非常易用，我不喜欢花里胡哨的东西。我所以就选择了这款主题。🌈</p>
+<p>CI 用的是 GitHub Actions:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">name</span>: <span style="color:#ae81ff">GitHub Page Deploy</span>
+
+<span style="color:#f92672">on</span>:
+  <span style="color:#f92672">push</span>:
+    <span style="color:#f92672">branches</span>:
+      - <span style="color:#ae81ff">main</span>
+<span style="color:#f92672">jobs</span>:
+  <span style="color:#f92672">build-deploy</span>:
+    <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-20.04</span>
+    <span style="color:#f92672">steps</span>:      
+      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Checkout main</span>
+        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/checkout@v2</span>
+      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Setup Hugo</span>
+        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">peaceiris/actions-hugo@v2</span>
+        <span style="color:#f92672">with</span>:
+          <span style="color:#f92672">hugo-version</span>: <span style="color:#e6db74">&#39;0.81.0&#39;</span>
+          <span style="color:#75715e"># extended: true</span>
+
+      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Build Hugo</span>
+        <span style="color:#f92672">run</span>: |<span style="color:#e6db74">
+</span><span style="color:#e6db74">          </span>          <span style="color:#ae81ff">hugo</span>
+      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy Hugo to gh-pages</span>
+        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">peaceiris/actions-gh-pages@v2</span>
+        <span style="color:#f92672">env</span>:
+          <span style="color:#f92672">ACTIONS_DEPLOY_KEY</span>: <span style="color:#ae81ff">${{ secrets.ACTIONS_DEPLOY_KEY }}</span>
+          <span style="color:#f92672">PUBLISH_BRANCH</span>: <span style="color:#ae81ff">gh-pages</span>
+          <span style="color:#f92672">PUBLISH_DIR</span>: <span style="color:#ae81ff">./public</span>
+</code></pre></div><p><strong>总之就是非常丝滑</strong>，Hugo NB!</p>
+]]></content>
+            
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://chenyyds.com/tags/%E6%8A%98%E8%85%BE" term="%E6%8A%98%E8%85%BE" label="折腾" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[你好！2021]]></title>
+            <link href="https://chenyyds.com/posts/2021/" rel="alternate" type="text/html" />
+            
+                <link href="https://chenyyds.com/posts/duanwu/" rel="related" type="text/html" title="端午节" />
+                <link href="https://chenyyds.com/posts/helloworld/" rel="related" type="text/html" title="Hello world!" />
+            
+                <id>https://chenyyds.com/posts/2021/</id>
+            
+            
+            <published>2021-02-16T16:53:46+00:00</published>
+            <updated>2021-02-16T16:53:46+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>2021牛年大吉。</blockquote><p>时间过的真快，现在又是新的一年，终于抛开了不痛快的2020。</p>
+<p>2020真是不幸运的一年，一开始就是疫情的来临。</p>
+<p>让我在家呆了半年，什么事情都没干成，失去的东西也不少。</p>
+<p>开了几年的几十万的奥迪也秒变吉利，老婆的服装店也亏损不少。</p>
+<p>让我欠下一屁股的债和刷爆了信用卡，不少顺心的事也接连不断。</p>
+<p>在这年里面真是让人心态失落，崩溃啊！😕</p>
+<p>现在又到了新的一年，我多的话不想说。</p>
+<p>只希望全家幸福安康，儿子快乐成长，开开心心过好每一天即可。🐂 666</p>
+]]></content>
+            
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://chenyyds.com/tags/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[端午节]]></title>
+            <link href="https://chenyyds.com/posts/duanwu/" rel="alternate" type="text/html" />
+            
+                <link href="https://chenyyds.com/posts/helloworld/" rel="related" type="text/html" title="Hello world!" />
+            
+                <id>https://chenyyds.com/posts/duanwu/</id>
+            
+            
+            <published>2020-06-24T13:53:46+00:00</published>
+            <updated>2020-06-24T13:53:46+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>端午临中夏，时清日复长</p>
+<p>每年农历五月初五</p>
+<p>是中国人的传统佳节——端午节</p>
+<p>门插艾，香满堂，吃粽子，撒白糖</p>
+<p>而在吃货们的眼中</p>
+<p>不以食物为代表的节日，都是“耍流氓”</p>
+<p>小时候</p>
+<p>妈妈会早几天就开始包粽子</p>
+<p>爷爷都给我们准备雄黄酒</p>
+<p>以迎接端午节</p>
+<p>然后串门外婆家去大吃几顿，粽意深情.</p>
+<p>浓浓的粽香，撞上深沉的爱</p>
+<p>注定是爱意满满，幸福多多。</p>
+]]></content>
+            
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://chenyyds.com/tags/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[frp隐藏CMD窗口运行]]></title>
+            <link href="https://chenyyds.com/posts/frp-1/" rel="alternate" type="text/html" />
+            
+                <link href="https://chenyyds.com/posts/hugo-blog/" rel="related" type="text/html" title="快速搭建Hugo博客" />
+            
+                <id>https://chenyyds.com/posts/frp-1/</id>
+            
+            
+            <published>2020-04-28T14:53:46+00:00</published>
+            <updated>2020-04-28T14:53:46+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>新建一个文本文档在开头处写入</p>
+<pre><code>@echo off
+if &quot;%1&quot; == &quot;h&quot; goto begin
+mshta vbscript:createobject(&quot;wscript.shell&quot;).run(&quot;&quot;&quot;%~nx0&quot;&quot; h&quot;,0)(window.close)&amp;&amp;exit
+:begin
+REM
+frpc.exe -c frpc.ini
+</code></pre><p>其中frpc.exe -c frpc.ini为运行命令。
+另存为.bat文件，放在frp目录下，双击该bat文件会在屏幕中一闪而过。</p>
+]]></content>
+            
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://chenyyds.com/tags/%E5%BA%94%E7%94%A8" term="%E5%BA%94%E7%94%A8" label="应用" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[你妹，就是这个风格。]]></title>
+            <link href="https://chenyyds.com/posts/bokenimei/" rel="alternate" type="text/html" />
+            
+                <link href="https://chenyyds.com/posts/hugo-cloudstudio/" rel="related" type="text/html" title="用cloud studio来搭建Hugo" />
+                <link href="https://chenyyds.com/posts/bb/" rel="related" type="text/html" title="吐槽神器—B言B语" />
+                <link href="https://chenyyds.com/posts/chinese/" rel="related" type="text/html" title="中文文本测试" />
+            
+                <id>https://chenyyds.com/posts/bokenimei/</id>
+            
+            
+            <published>2020-04-17T15:05:55+00:00</published>
+            <updated>2020-04-17T15:05:55+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>现在又来玩下静态博客，由Hugo驱动~</blockquote><p>总是换来换去，之前的博客服务器被我干崩了，数据全部没了！</p>
+<p>现在又重新用go语言搭建的静态博客，直接托管到仓库。</p>
+<p>省略了数据备份，又节约了服务器成本。</p>
+<p>博客来对我来说是不注重于写作，爱好于折腾。</p>
+<p>哎~重头再来吧！继续折腾~😂</p>
+]]></content>
+            
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://chenyyds.com/tags/%E6%8A%98%E8%85%BE" term="%E6%8A%98%E8%85%BE" label="折腾" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

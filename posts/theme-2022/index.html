@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    
+      <title>给博客换身皮 - 老陳网志</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="春节快来了，顺便把博客更新一下。差不多大半年没更新博客了。 自从以前的Hexo换成了Hugo，速度真的快了很多，不愧是 “The world’s fastest”。用的" />
+<meta name="keywords" content="" />
+<meta name="referrer" content="never" />
+<link rel="canonical" href="https://chenyyds.com/posts/theme-2022/" />
+<link rel="stylesheet" href="https://chenyyds.com/css/grid.css">
+<link rel="stylesheet" href="https://chenyyds.com/css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="https://chenyyds.com/favicon.png">
+
+<script type="text/javascript" src="https://chenyyds.com/js/jquery.min.js"></script>
+
+<meta property="og:title" content="给博客换身皮" />
+<meta property="og:description" content="春节快来了，顺便把博客更新一下。差不多大半年没更新博客了。 自从以前的Hexo换成了Hugo，速度真的快了很多，不愧是 “The world’s fastest”。用的" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chenyyds.com/posts/theme-2022/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-22T14:53:36&#43;00:00" />
+<meta property="article:modified_time" content="2022-01-22T14:53:36&#43;00:00" />
+
+
+
+
+    
+    
+  </head>
+  <body class="">
+		<div class="layout">
+		
+		    <header class="header">
+  <div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="header-inner">
+					<a href="https://chenyyds.com" class="logo" style="text-decoration: none;">
+  
+    <img src="/img/logo.png" alt="" />
+  
+</a>
+
+					<span class="header-center">
+						
+						  <nav class="menu hidden">
+	<ul class="menu__inner menu__inner--desktop">
+		
+		
+		
+		<li><a href="/">首页</a></li>
+		
+		
+		
+		<li><a href="/about">关于</a></li>
+		
+		
+		
+		<li><a href="/talk">哔哔</a></li>
+		
+		
+		
+		<li><a href="/archives/">归档</a></li>
+		
+		
+		
+		<li><a href="/search/">搜索</a></li>
+		
+		
+		
+	</ul>
+
+	<ul class="menu__inner menu__inner--mobile">
+		
+		
+		<li><a href="/">首页</a></li>
+		
+		
+		
+		<li><a href="/about">关于</a></li>
+		
+		
+		
+		<li><a href="/talk">哔哔</a></li>
+		
+		
+		
+		<li><a href="/archives/">归档</a></li>
+		
+		
+		
+		<li><a href="/search/">搜索</a></li>
+		
+		
+	</ul>
+</nav>
+
+						
+					</span>
+					<span class="header-right">
+					  
+					    <span class="menu-trigger hidden">
+					      <span class="iconfont iconmenu"></span>
+					    </span>
+					  
+					  <span class="theme-toggle">
+							<span class="iconfont iconappstore"></span>
+					  </span>
+					</span>
+				</div>
+			</div>
+		</div>
+    
+  </div>
+</header>
+
+		
+		    
+
+<div class="container">
+	
+	
+
+
+	<div class="post row">
+		
+		
+
+		
+
+		<div class="col-12 col-sm-12 col-md-9">
+			<div class="post-main">
+
+				<div class="post-header">
+					<h1 class="post-title">给博客换身皮</h1>
+					<div class="post-meta mt-3">
+						
+						<span class="item">
+							
+							<a href="https://chenyyds.com/tags/%E6%8A%98%E8%85%BE/">折腾</a>
+							
+						</span>
+						
+						
+						<span class="article-date item">
+							2022-01-22 14:53:36
+						</span>
+						
+						
+						
+						
+						
+						<span class="article-readtime item">
+							<span>206 字</span>
+						</span>
+						
+					</div>
+				</div>
+				<div class="post-content">
+					<div class="post-feature mb-3">
+						
+						
+						<img loading='lazy' src="https://chenyyds.com/img/blog2.jpg" class="post-cover" />
+						
+						
+					</div>
+					<div class="post-inner">
+						<p>春节快来了，顺便把博客更新一下。差不多大半年没更新博客了。</p>
+<p>自从以前的Hexo换成了Hugo，速度真的快了很多，不愧是 “The world’s fastest”。用的主题是 <a href="https://github.com/WingLim/hugo-tania">Tania</a>，很简洁、漂亮。Hugo 非常易用，我不喜欢花里胡哨的东西。我所以就选择了这款主题。🌈</p>
+<p>CI 用的是 GitHub Actions:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">name</span>: <span style="color:#ae81ff">GitHub Page Deploy</span>
+
+<span style="color:#f92672">on</span>:
+  <span style="color:#f92672">push</span>:
+    <span style="color:#f92672">branches</span>:
+      - <span style="color:#ae81ff">main</span>
+<span style="color:#f92672">jobs</span>:
+  <span style="color:#f92672">build-deploy</span>:
+    <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-20.04</span>
+    <span style="color:#f92672">steps</span>:      
+      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Checkout main</span>
+        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/checkout@v2</span>
+      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Setup Hugo</span>
+        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">peaceiris/actions-hugo@v2</span>
+        <span style="color:#f92672">with</span>:
+          <span style="color:#f92672">hugo-version</span>: <span style="color:#e6db74">&#39;0.81.0&#39;</span>
+          <span style="color:#75715e"># extended: true</span>
+
+      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Build Hugo</span>
+        <span style="color:#f92672">run</span>: |<span style="color:#e6db74">
+</span><span style="color:#e6db74">          </span>          <span style="color:#ae81ff">hugo</span>
+      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy Hugo to gh-pages</span>
+        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">peaceiris/actions-gh-pages@v2</span>
+        <span style="color:#f92672">env</span>:
+          <span style="color:#f92672">ACTIONS_DEPLOY_KEY</span>: <span style="color:#ae81ff">${{ secrets.ACTIONS_DEPLOY_KEY }}</span>
+          <span style="color:#f92672">PUBLISH_BRANCH</span>: <span style="color:#ae81ff">gh-pages</span>
+          <span style="color:#f92672">PUBLISH_DIR</span>: <span style="color:#ae81ff">./public</span>
+</code></pre></div><p><strong>总之就是非常丝滑</strong>，Hugo NB!</p>
+
+						
+					</div>
+				</div>
+				<div class="post-footer">
+					
+					<span class="item flex-fill" data-flag-title="给博客换身皮">
+						阅读
+						<span id="twikoo_visitors">0</span>
+					</span>
+
+					<a href="#twikoo">
+						<span class="item">
+							评论
+							<span id="twikoo_count">0</span>
+						</span>
+					</a>
+					
+				</div>
+				<div class="post-navigation">
+					
+					<div class="navigation-list">
+						
+						
+						<div class="post-card row">
+							<div class="card-content col-8 col-md-9">
+								<div class="card-body">
+									<h3><a class="title" href="https://chenyyds.com/posts/2021/">你好！2021</a></h3>
+								</div>
+								<div class="card-footer text-xs">
+									<div class="item">
+										<span>下一篇</span>
+									</div>
+									<div class="item">
+										2022-01-22
+									</div>
+								</div>
+							</div>
+							
+							<div class="card-thumb col-4 col-md-3">
+								<div class="thumb">
+									<a href="https://chenyyds.com/posts/2021/"
+										style="background-image: url('/img/2021.jpg');"></a>
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="post-comments">
+					
+					  <div id="tcomment"></div>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/twikoo@1.5.0/dist/twikoo.all.min.js"></script>
+  <script>
+  twikoo.init({
+    envId: 'chencloud-1dcd88',
+    el: '#tcomment',
+    
+    
+  })
+  </script>
+
+					
+				</div>
+			</div>
+
+		</div>
+		<div class="d-none d-md-flex col-md-3">
+			<div class="post-sidebar">
+				
+				
+
+				
+				<div class="post-recent sidebar">
+					<div class="sidebar-title">最新文章</div>
+					<div class="sidebar-content">
+						<ul class="recent-list">
+							
+							<li class="recent-item">
+								<div class="recent-thumb" style="background-image: url(/img/blog2.jpg);"></div>
+								<div class="recent-content">
+									<a class="recent-link" href="/posts/theme-2022/">给博客换身皮</a>
+									<span class="recent-date">
+										2022-01-22
+									</span>
+								</div>
+							</li>
+							
+							<li class="recent-item">
+								<div class="recent-thumb" style="background-image: url(/img/2021.jpg);"></div>
+								<div class="recent-content">
+									<a class="recent-link" href="/posts/2021/">你好！2021</a>
+									<span class="recent-date">
+										2021-02-16
+									</span>
+								</div>
+							</li>
+							
+							<li class="recent-item">
+								<div class="recent-thumb" style="background-image: url(/img/5-5.gif);"></div>
+								<div class="recent-content">
+									<a class="recent-link" href="/posts/duanwu/">端午节</a>
+									<span class="recent-date">
+										2020-06-24
+									</span>
+								</div>
+							</li>
+							
+							<li class="recent-item">
+								<div class="recent-thumb" style="background-image: url(/img/code1.jpg);"></div>
+								<div class="recent-content">
+									<a class="recent-link" href="/posts/frp-1/">frp隐藏CMD窗口运行</a>
+									<span class="recent-date">
+										2020-04-28
+									</span>
+								</div>
+							</li>
+							
+							<li class="recent-item">
+								<div class="recent-thumb" style="background-image: url(/img/blog1.jpg);"></div>
+								<div class="recent-content">
+									<a class="recent-link" href="/posts/bokenimei/">你妹，就是这个风格。</a>
+									<span class="recent-date">
+										2020-04-17
+									</span>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+				
+
+				
+				<div class="post-toc sidebar">
+					<div class="sidebar-title">文章目录</div>
+					<div class="sidebar-content">
+						
+
+
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+
+	</div>
+</div>
+
+		    
+		    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+<footer class="footer">
+  <div class="container">
+		<div class="row align-items-center ">
+			<div class="col-12">
+				<div class="footer-content">
+					<div class="row">
+						<div class="col-12 col-md-9">
+							
+							  
+							    <div class="copyright justify-content-center justify-content-md-start">
+										<span class="align-items-center">© 2022 老陳网志 <span class="d-none d-sm-inline"><span class="px-2">⋅</span> Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> And <a href="https://cloudbase.net/" target="_blank" rel="noopener">Cloudbase</a> <span class="px-2">⋅</span> <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="nofollow noopener"> 渝ICP备18007511号 </a> </span>
+									</div>
+							  
+							
+						</div>
+						<div class="d-none d-md-block col-md-3 col-right">
+							<div class="socials">
+							  
+							  
+							  
+							  
+							  
+							  
+							  <a href="https://github.com/yydschen" title="github" target="_blank"><i class="iconfont icongithub-fill"></i></a>
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  <a href="https://weibo.com/chenyyds" title="weibo" target="_blank"><i class="iconfont iconweibo-fill"></i></a>
+							  
+							  
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+  </div>
+</footer>
+
+<div class="backtop d-none"><i class="iconfont iconup" aria-hidden="true"></i></div>
+
+<script type="text/javascript" src="https://chenyyds.com/js/all.js"></script>
+<script type="text/javascript" src="https://chenyyds.com/js/main.js"></script>
+<script type="text/javascript" src="https://chenyyds.com/js/lately.min.js"></script>
+<script type="text/javascript" src="https://chenyyds.com/js/slimbox2.min.js"></script>
+<script type="text/javascript" src="https://chenyyds.com/js/waterfall.min.js"></script>
+
+		
+		</div>
+
+  </body>
+</html>

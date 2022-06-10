@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生活 on 老陳网志</title>
+    <link>https://chenyyds.com/tags/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on 老陳网志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 16 Feb 2021 16:53:46 +0000</lastBuildDate><atom:link href="https://chenyyds.com/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你好！2021</title>
+      <link>https://chenyyds.com/posts/2021/</link>
+      <pubDate>Tue, 16 Feb 2021 16:53:46 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/2021/</guid>
+      <description>时间过的真快，现在又是新的一年，终于抛开了不痛快的2020。 2020真是不幸运的一年，一开始就是疫情的来临。 让我在家呆了半年，什么事情都没干成，失去的东西也不少</description>
+    </item>
+    
+    <item>
+      <title>端午节</title>
+      <link>https://chenyyds.com/posts/duanwu/</link>
+      <pubDate>Wed, 24 Jun 2020 13:53:46 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/duanwu/</guid>
+      <description>端午临中夏，时清日复长 每年农历五月初五 是中国人的传统佳节——端午节 门插艾，香满堂，吃粽子，撒白糖 而在吃货们的眼中 不以食物为代表的节日，都是“耍流氓” 小时候 妈妈会</description>
+    </item>
+    
+    <item>
+      <title>Hello world!</title>
+      <link>https://chenyyds.com/posts/helloworld/</link>
+      <pubDate>Sun, 15 Dec 2019 11:25:05 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/helloworld/</guid>
+      <description>你好世界，愿这里成为你的一片净土。 欢迎使用Hugo，这是您的第一篇文章。编辑或删除它，然后开始写作吧！</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文章 on 老陳网志</title>
+    <link>https://chenyyds.com/posts/</link>
+    <description>Recent content in 文章 on 老陳网志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 22 Jan 2022 14:53:36 +0000</lastBuildDate><atom:link href="https://chenyyds.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给博客换身皮</title>
+      <link>https://chenyyds.com/posts/theme-2022/</link>
+      <pubDate>Sat, 22 Jan 2022 14:53:36 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/theme-2022/</guid>
+      <description>春节快来了，顺便把博客更新一下。差不多大半年没更新博客了。 自从以前的Hexo换成了Hugo，速度真的快了很多，不愧是 “The world’s fastest”。用的</description>
+    </item>
+    
+    <item>
+      <title>你好！2021</title>
+      <link>https://chenyyds.com/posts/2021/</link>
+      <pubDate>Tue, 16 Feb 2021 16:53:46 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/2021/</guid>
+      <description>时间过的真快，现在又是新的一年，终于抛开了不痛快的2020。 2020真是不幸运的一年，一开始就是疫情的来临。 让我在家呆了半年，什么事情都没干成，失去的东西也不少</description>
+    </item>
+    
+    <item>
+      <title>端午节</title>
+      <link>https://chenyyds.com/posts/duanwu/</link>
+      <pubDate>Wed, 24 Jun 2020 13:53:46 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/duanwu/</guid>
+      <description>端午临中夏，时清日复长 每年农历五月初五 是中国人的传统佳节——端午节 门插艾，香满堂，吃粽子，撒白糖 而在吃货们的眼中 不以食物为代表的节日，都是“耍流氓” 小时候 妈妈会</description>
+    </item>
+    
+    <item>
+      <title>frp隐藏CMD窗口运行</title>
+      <link>https://chenyyds.com/posts/frp-1/</link>
+      <pubDate>Tue, 28 Apr 2020 14:53:46 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/frp-1/</guid>
+      <description>新建一个文本文档在开头处写入 @echo off if &amp;quot;%1&amp;quot; == &amp;quot;h&amp;quot; goto begin mshta vbscript:createobject(&amp;quot;wscript.shell&amp;quot;).run(&amp;quot;&amp;quot;&amp;quot;%~nx0&amp;quot;&amp;quot; h&amp;quot;,0)(window.close)&amp;amp;&amp;amp;exit :begin REM frpc.exe -c frpc.ini 其中frpc.exe -c frpc.ini为运行命令。 另存为.bat文件，放在frp目录下，双击该bat</description>
+    </item>
+    
+    <item>
+      <title>你妹，就是这个风格。</title>
+      <link>https://chenyyds.com/posts/bokenimei/</link>
+      <pubDate>Fri, 17 Apr 2020 15:05:55 +0000</pubDate>
+      
+      <guid>https://chenyyds.com/posts/bokenimei/</guid>
+      <description>总是换来换去，之前的博客服务器被我干崩了，数据全部没了！ 现在又重新用go语言搭建的静态博客，直接托管到仓库。 省略了数据备份，又节约了服务器成本。 博客来对我来说是</description>
+    </item>
+    
+  </channel>
+</rss>
