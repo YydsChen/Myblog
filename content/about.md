@@ -15,7 +15,7 @@ Email：`YWRtaW5AY2hlbnBsdXMuY29t`- 私密 (Tip:BASE64)
 
 本站使用 [Hugo](https://gohugo.io/) 搭建。托管于[vercel](https://vercel.com/) & [Cloudbase](https://cloudbase.net/) 。
 
-详见GitHub： [https://github.com/YydsChen/Blog](https://github.com/yydschen/Blog)。
+详见GitHub： [https://github.com/YydsChen/Myblog](https://github.com/yydschen/myBlog)。
 
 如无特殊说明，本站的内容均使用 [CC BY-NC-SA 2.5](https://creativecommons.org/licenses/by-nc-sa/2.5/cn/) 协议。
  
