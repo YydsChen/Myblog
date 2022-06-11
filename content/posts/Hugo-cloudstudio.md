@@ -42,15 +42,14 @@ $ which hugo
 首先，从github hugo页面下载最新版本，当前版本是v0.69.2，选择与你的CPU架构匹配的版本：
 
 
-`
+```
 wget https://github.com/gohugoio/hugo/releases/download/v0.69.2/hugo_0.54.0_Linux-64bit.deb
-`
 
+```
 GitHub可能速度比较慢下面我提供了我国内服务器下载地址：
-
-`
+```
 wget http://d.chenplus.com/download/hugo_0.69.2_Linux-64bit.deb
-`
+```
 
 在运行的时候下载命令的时候可能报错。wget: command not found！主要是因为你的系统太干净了，没有安装下载命令的控制器，我们给Ubuntu系统安装个下载命令器即可。
 
